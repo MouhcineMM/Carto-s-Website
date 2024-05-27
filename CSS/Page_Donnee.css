@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-color:white;
+}
+
+header {
+
+    background: linear-gradient(to right, #B0E0E6, #90EE90);
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    width: 100%;
+    height: 1.25%;
+    z-index: 2; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+	color:red;  
+	width: 20%;
+    font-size: 22px; 
+    font-weight: bold; 
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+	
+}
+
+nav ul li a:hover {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right,#B0E0E6, #4CAF50);
+    transition: width 0.7s, height 0.8s, background 0.5s;
+
+}
+
+section h1{
+	font-size: 50px; 
+	margin-top:80px;
+	color:white
+}
+
+#menu {
+    position: fixed;
+    top: 200px; 
+    left: 0;
+    height: 100%; 
+    width: 200px; 
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    z-index: 1; 
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover{
+	color:green;
+}
+
+#cache {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 200px;
+	background-color: #333;
+	padding: 10px;
+	z-index: -1;
+	}
+
+.main-content {
+	margin-left: 220px;
+	padding: 20px;
+}
+.main-content h2{
+	text-align:center;
+}
+#ajout_modif_sup {
+    display: none; /* Rendre la balise invisible par défaut */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black; /* Ajouter une bordure */
+    padding: 20px; /* Ajouter un espace intérieur */
+    background-color: #fff; /* Fond blanc */
+    z-index: 9999; /* Assurer que la balise soit au-dessus de tout autre contenu */
+}

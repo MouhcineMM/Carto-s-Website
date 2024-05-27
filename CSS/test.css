@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-color:white;
+}
+
+header {
+    position: fixed;
+    background: linear-gradient(to right, #B0E0E6, #90EE90);
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    width: 100%;
+    z-index: 2; 
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;  
+    font-size: 22px; 
+    font-weight: bold; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right,#B0E0E6, #4CAF50);
+    transition: width 0.7s, height 0.8s, background 0.5s;
+}
+
+
+header img {
+    width: 30px;
+    height: 30px;
+    margin-left: 50px; /* Ajoute un espace entre la liste et l'image */
+    vertical-align: middle;
+}
+
+
+#photo_intro {
+  background-image: url('grenouille2.PNG');
+	height:190px;
+  text-align: right;
+  background-size: 100%; 
+  background-attachment: fixed;
+}
+
+#logo img{
+
+  position:relative ; 
+  top: -130px; 
+  left: -40px; 
+  width: 15%; 
+  height: auto; 
+
+}
+
+
+#logo_upvd_acc{
+	width: 75%;
+	height : 60px
+	
+}
+
+section {
+    padding: 2em; 
+    scroll-margin-top: 10px;
+}
+
+section h1{
+	font-size: 50px; 
+	margin-top:80px;
+	color:white
+}
+
+#menu {
+    position: fixed;
+    top: 250px; 
+    left: 0;
+    height: 100%; 
+    width: 200px; 
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    z-index: 1; /
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    padding: 10px; 
+    margin-bottom: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover{
+	color:green;
+}
+
+#cache {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 200px;
+	background-color: #333;
+	padding: 10px;
+	z-index: -1;
+	}
+
+.main-content {
+	margin-left: 220px;
+	padding: 20px;
+}
+
+#paragraphe1 {
+    font-size: 18px;
+    margin-right: 20%;
+    padding: 10px; 
+	margin-bottom: 20px;
+	margin-top: 20px; 
+	line-height: 1.5;
+}
+
+#paragraphe2 {
+       width: 50%;
+    float: left; 
+	margin-top: 20px;
+	line-height: 1.5;
+}
+	
+
+#paragraphe3 {
+    font-size: 18px;
+    margin-right: 20%;
+    padding: 10px; 
+	margin-bottom: 20px; 
+	margin-top: 20px; 
+	margin-left: 20px;
+	line-height: 1.5;
+}
+
+
+
+#paragraphe4 {
+    width: 50%; 
+    float: left;
+	margin-top: 20px;
+	line-height: 1.5;
+}
+
+#paragraphe5 {
+    width: 70%;  
+	margin-top: 20px;
+	line-height: 1.5;
+}
+
+#paragraphe6 {
+    margin-top:100px;
+    font-size: 18px;
+    margin-right: 20%;
+    padding: 10px;
+	margin-top: 50;
+	line-height: 1.5;
+}
+
+.image_carte {
+    width: 50%; 
+    height: auto;
+    margin-left: 50%
+}
+
+.image_bdd{
+    margin-top:50px;
+    float: left;
+}
+
+.contenu-footer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 0; 
+}
+
+.main-content h3 a{
+color: green;	
+}
+
+#paragraphe_bdd{
+    margin-top:50px;
+    margin-left: 50%;
+}
+
+h2{
+    margin-top:10px;
+
+}
+
+.paragraphe_bd h3{
+    margin-left:70%;
+} 
+

@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-color:white;
+}
+
+header {
+    position: fixed;
+    background: linear-gradient(to right, #B0E0E6, #90EE90);
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    width: 100%;
+    z-index: 2; 
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1em;  
+    font-size: 22px; 
+    font-weight: bold; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right,#B0E0E6, #4CAF50);
+    transition: width 0.7s, height 0.8s, background 0.5s;
+}
+
+header img {
+    width: 20px;
+    height: 20px;
+    margin-left: 50px; /* Ajoute un espace entre la liste et l'image */
+    vertical-align: middle;
+}
+#photo_intro {
+  background-image: url('grenouille2.PNG');
+	height:190px;
+  text-align: right;
+  background-size: 100%; 
+  background-attachment: fixed;
+}
+
+#logo img{
+
+  position:relative ; 
+  top: -130px; 
+  left: -40px; 
+  width: 15%; 
+  height: auto; 
+
+}
+
+
+#logo_upvd_acc{
+	width: 75%;
+	height : 60px
+	
+}
+form {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 3px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
